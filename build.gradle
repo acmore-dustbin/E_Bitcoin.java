@@ -1,0 +1,15 @@
+group 'rucer.cn'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.alibaba:fastjson:1.2.46'
+    testCompile 'junit:junit:4.12'
+}
